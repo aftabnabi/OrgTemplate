@@ -1,0 +1,70 @@
+.WFCLheading{
+font-size: 26px;
+font-family: Arial,san-serif, Verdana, Times New Roman;
+}
+#Header table td p{
+	font-size:32px;
+	font-weight:bold;
+	font-family: Arial,san-serif, Verdana, Times New Roman;
+} 
+.tableformat{
+height: auto;
+width: 625px;
+margin: 0 auto;
+font-size: 20px;
+text-align:center;
+}
+
+.tableformat td:first-child{
+width:50%;
+}
+.Objectives{
+background: #699d1d;
+padding: 3px 0 5px 3px;
+color: #FFF;
+
+}
+/* Wrap alphabet. */
+ol.wrapAlphabet {
+    list-style-type: lower-alpha;
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+ol.wrapAlphabet li {
+    display: block;
+    margin-left: 2em;
+}
+
+ol.wrapAlphabet li:before {
+    display: inline-block;
+    counter-increment: item;
+    content: "("counter(item, lower-alpha)")";
+    width: 2em;
+    margin-left: -1em;
+}
+
+
+.objectiveUL ul, li {
+    padding: 0.5em;
+}
+
+ ul {
+    counter-reset: mcounter;
+	 
+}
+
+.objectiveUL  li:before {
+    content: counter(mcounter);
+    counter-increment: mcounter;
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+    background: #5afe01;
+    border-radius: 50%;
+}

@@ -1,0 +1,463 @@
+@charset "utf-8";
+#Detail {
+	margin-top:10px;
+}
+#AnS {
+	width:auto;
+	height:auto;
+	background:url('../images/logo4.png') no-repeat;
+	background-position-x: 300px;
+background-position-y: 50px;
+}
+#AnS .AnSHead {
+	/*background:#699d1d;
+	padding:3px 0 5px 3px;
+	color:#FFF;
+	font-weight:bold;*/
+	background: #699d1d;
+padding: 14px 0 5px 13px;
+color: #FFF;
+font-weight: bold;
+height: 20px;
+font-size:15px;
+}
+#ABox {/* outer box used on all pages minus districts pages */
+	width:99.3%;/*650px;*/
+	height:auto;/*245px;*/
+	border:1px solid #000;
+	float:left;
+	margin-left:2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#DisttBox{/* outer box used on districts pages*/
+	width:650px;
+	height:auto;
+	border:1px solid #000;
+	float:left;
+	margin-left:2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#SBox {
+	width:380px;
+	height:auto;
+	border:1px solid #000;
+/*	float:right;*/
+	margin:10px 3px  0  0;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.Stat_head{
+background:#699d1d;
+	padding:3px 0 5px 3px;
+	color:#FFF;
+	font-weight:bold;
+	}
+	
+#Districts {
+	width:auto;
+	height:auto;
+	margin-top:10px;
+}
+#Districts .DBoxHead {
+	background:#699d1d;
+	margin-top:7px;
+	padding:3px;
+	color:#FFF;
+}
+#DBoxCh {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/chakwal.png);
+	opacity:0.7;
+}
+#DBoxCh:Hover {
+	opacity:100;
+}
+#DBoxJe {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/jehlum.png);
+	opacity:0.7;
+}
+#DBoxJe:Hover {
+	opacity:100;
+}
+#DBoxJh {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/jhang.jpg);
+	opacity:0.7;
+}
+#DBoxJh:Hover {
+	opacity:100;
+}
+#TBoxJh {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/jhang1.jpg);
+	opacity:0.7;
+}
+#TBoxJh:Hover {
+	opacity:100;
+}
+#TBoxTala {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/talagang.jpg);
+	opacity:0.7;
+}
+#TBoxTala:Hover {
+	opacity:100;
+}
+#TBoxDina {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/dina2.jpg);
+	opacity:0.7;
+}
+#TBoxDina:Hover {
+	opacity:100;
+}
+#TBoxAtharahazari{
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/atharahazari.jpg);
+	opacity:0.7;
+}
+#TBoxAtharahazari:Hover {
+	opacity:100;
+}
+#TBoxAhmadpur{
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/ahmadpursial.jpg);
+	opacity:0.7;
+}
+#TBoxAhmadpur:Hover {
+	opacity:100;
+}
+#TBoxShorkot {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/shorkot.jpg);
+	opacity:0.7;
+}
+#TBoxShorkot:Hover {
+	opacity:100;
+}
+#TBoxSohawa {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/sohawa.jpg);
+	opacity:0.7;
+}
+#TBoxSohawa:Hover {
+	opacity:100;
+}
+#TBoxPDKhan {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/pinddadankhan.jpg);
+	opacity:0.7;
+}
+#TBoxPDKhan:Hover {
+	opacity:100;
+}
+#TBoxChakwal {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/chakwal2.jpg);
+	opacity:0.7;
+}
+#TBoxChakwal:Hover {
+	opacity:100;
+}
+#TBoxChoa {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/choasaidenshah.jpg);
+	opacity:0.7;
+}
+#TBoxChoa:Hover {
+	opacity:100;
+}
+#TBoxKalarkahar {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/kalarkahar.jpg);
+	opacity:0.7;
+}
+#TBoxKalarkahar:Hover {
+	opacity:100;
+}
+
+#TBoxJe {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/jehlumcantt.png);
+	opacity:0.7;
+}
+#TBoxJe:Hover {
+	opacity:100;
+}
+#DBoxLa {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/laya.jpg);
+	opacity:0.7;
+}
+#DBoxLa:Hover {
+	opacity:100;
+}
+#TBoxLa {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 10px 0 118px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/layyah.jpg);
+	opacity:0.7;
+}
+#TBoxLa:Hover {
+	opacity:100;
+}
+#TBoxKaror {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/karor1.jpg);
+	opacity:0.7;
+}
+#TBoxKaror:Hover {
+	opacity:100;
+}
+#TBoxChoubara {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/chaubara.jpg);
+	opacity:0.7;
+}
+#TBoxChoubara:Hover {
+	opacity:100;
+}
+#TBoxFatehpur {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	float:left;
+	margin:0 3px 0 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/fatehpur.jpg);
+	opacity:0.7;
+}
+#TBoxFatehpur:Hover {
+	opacity:100;
+}
+#Feedback {
+	width:245px;
+	height:245px;
+	border:1px solid #000;
+	
+	margin:10px auto;
+	background:#FFF;
+	border:3px solid #FFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#Feedback .FBHead {
+	background:#699d1d;
+	padding:3px 0 3px 5px;
+	color:#FFF;
+}
+#Feedback input,textarea {
+	font:100% Calibri,Verdana,sans-serif;
+	padding:3px;
+	max-width:230px;
+}
+#Feedback input:focus,textarea:focus {
+	color:#000;
+}
+#Nav li.RHSMenu{
+margin-top:0;
+margin-bottom:0;
+float:right;
+}
+#Nav li.RHSMenu ul{
+		
+}
+#events ul{
+	list-style-type:none;
+}
+#events ul li {
+	list-style-type:none;
+	display:inline-block;
+	border: 2px solid gray;
+border-radius: 7px;
+}
+#events ul li img {
+border-radius: 4px;
+}
+#events ul li ul{
+
+
+	list-style-type:none;
+}
+#events ul li ul li
+{
+ display: inline;
+}
+#events ul li ul li div.gallery{
+	border:1px solid #000;
+	float:left;
+	margin:10px 3px 10px 2px;
+	border:3px solid #699d1d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	opacity:0.8;
+}
+#events ul li ul li div.gallery:hover{
+	
+	opacity:1;
+}
